@@ -12,7 +12,7 @@ $ npm install
 ```
 
 ### Exercises
-- [Variables](./src/variables/README.md)
+- [Variables](./src/variables)
   - [Declaration](./src/variables/declaration.js)
   - [Assignment](./src/variables/assignment.js)
 - [Data Types](./src/data-types/README.md)
