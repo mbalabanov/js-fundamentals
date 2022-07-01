@@ -1,8 +1,11 @@
-// this function should return true if the first argument is greater than or equal to 18
+const exampleValue = 10
 
-function example (val1) {
-  // TODO: write code in this function body to pass the tests
-  return val1 >= 18
+// Use conditional statements to set the value of the answer variable below
+// to be the string 'Correct!' if the exampleValue variable is more than or equal to 7
+let answer
+
+if (exampleValue >= 7) {
+    answer = 'Correct!'
 }
 
-module.exports = example
+module.exports = answer

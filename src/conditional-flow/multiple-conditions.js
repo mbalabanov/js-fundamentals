@@ -1,40 +1,59 @@
-// This function should return true if num is greater
-// than or equal to lower AND less than or equal to upper.
-// Implement this with a single condition.
-function isInRange (num, lower, upper) {
+// Task 1
+const LOWER = 4
+const UPPER = 17
+const NUM = 9
 
-  // TODO: write code in this function body to pass the tests
+// Use conditional statements to set the value of the answerOne variable
+// to be true if the NUM variable is more than or equal to the LOWER variable
+// AND is less than or equal to the UPPER variable
+let answerOne
 
-}
 
-// This function should return true if the passed string is equal
-// to "Hello" or "Goodbye". Implement this with a single
-// if statement.
-function isHelloOrGoodbye (val1) {
 
-  // TODO: write code in this function body to pass the tests
+// ---- //
 
-}
+// Task 2
+const STR = null
 
-// This function should return a string that describes the provided age value. The
-// table below shows for each range of age values what string should be returned.
+// Use conditional statements to set the answerTwo variable below to true
+// if the STR variable is 'Hello' or 'Goodbye'
+// Set answerTwo to false if it's neither of those
+// Run the test after setting STR to 'Hello', then 'Goodbye', then any other value you like
+// to verify your code is correct
+let answerTwo
+
+
+
+// ---- //
+
+// Task 3
+const AGE = 0
+
+// Use conditional statements to set the answerThree variable below to a
+// string value based on what the AGE variable is set to.
+// The table below shows the string that should be used for each range of
+// values that AGE can be.
 //
-// For example, if an age of 3 is provided to the function, "Toddler" should be
-// returned.
+// For example: if AGE is set to 3, answerThree should be set to 'Toddler'
 //
-// Input   Output
 // 0      | Baby
 // 1-4    | Toddler
 // 5-12   | Child
 // 13-19  | Teenager
 // 20+    | Adult
-function getAgeDescription (age) {
+let answerThree
 
-  // TODO: write code in this function body to pass the tests
-}
 
+// Run the test after changing the AGE value to verify you've successfully
+// accounted for each age range
+
+
+
+// Don't touch the code below this line
 module.exports = {
-  a: isInRange,
-  b: isHelloOrGoodbye,
-  c: getAgeDescription
+    answerOne,
+    STR,
+    answerTwo,
+    AGE,
+    answerThree
 }

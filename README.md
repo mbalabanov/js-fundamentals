@@ -32,17 +32,17 @@ $ npm install
   - [Examples](./src/loops/example.js)
   - [For Loop Basics](./src/loops/for-loop-basics.js)
   - [For Loops And Arrays](./src/loops/for-loops-and-arrays.js)
-- [Functions](./src/functions/README.md)
-  - [Examples](./src/functions/example.js)
-  - [Calling Functions](./src/functions/calling-functions.js)
-  - [Creating Functions]('./src/functions/creating-functions.js')
-  - [Creating Functions with Multiple Arguments](./src/functions/creating-functions-multiple-args.js)
 - [Conditional Flow](./src/conditional-flow/README.md)
   - [Examples](./src/conditional-flow/example.js)
   - [Boolean Conditions](./src/conditional-flow/boolean-conditions.js)
   - [Numeric Conditions](./src/conditional-flow/numeric-conditions.js)
   - [String Conditions](./src/conditional-flow/string-conditions.js)
   - [Multiple Conditions](./src/conditional-flow/multiple-conditions.js)
+- [Functions](./src/functions/README.md)
+  - [Examples](./src/functions/example.js)
+  - [Calling Functions](./src/functions/calling-functions.js)
+  - [Creating Functions]('./src/functions/creating-functions.js')
+  - [Creating Functions with Multiple Arguments](./src/functions/creating-functions-multiple-args.js)
 
 ### Instructions
 
