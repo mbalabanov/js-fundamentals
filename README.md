@@ -8,7 +8,7 @@
 4. Install the project dependencies
 
 ```sh
-$ npm ci
+npm ci
 ```
 
 ### Exercises
