@@ -5,7 +5,7 @@ describe('Objects Keys:', () => {
     expect(answers.name).toEqual('Clean Code')
   })
 
-  it('ISBN 10 should be equal to the book\'s ISBN 10 number', () => {
+  it("ISBN 10 should be equal to the book's ISBN 10 number", () => {
     expect(answers.isbn10).toEqual('9780132350884')
   })
 
