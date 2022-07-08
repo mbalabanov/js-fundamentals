@@ -3,6 +3,9 @@ const STR_ONE = 'Hello'
 
 let answerOne
 
+if (STR_ONE === 'Hello') {
+  answerOne = true
+}
 
 
 
@@ -11,7 +14,9 @@ const STR_TWO = 'Goodbye'
 
 let answerTwo
 
-
+if (STR_TWO !== 'Hello') {
+  answerTwo = true
+}
 
 
 // Use conditional statements to set answerThree to true if STR_THREE is
@@ -21,6 +26,9 @@ const STR_FOUR = 'Good'
 
 let answerThree
 
+if (STR_THREE.length > STR_FOUR.length) {
+  answerThree = true
+}
 
 
 
@@ -31,7 +39,30 @@ const STR_FIVE = 'Alex'
 
 let answerFour
 
+let numberOfVowelsSTR_FIVE = 0
 
+for (let currentLetter = 0; currentLetter < STR_FIVE.length; currentLetter++) {
+  if (
+      STR_FIVE[currentLetter] === "A" ||
+      STR_FIVE[currentLetter] === "E" ||
+      STR_FIVE[currentLetter] === "I" ||
+      STR_FIVE[currentLetter] === "O" ||
+      STR_FIVE[currentLetter] === "U" ||
+      STR_FIVE[currentLetter] === "a" ||
+      STR_FIVE[currentLetter] === "e" ||
+      STR_FIVE[currentLetter] === "i" ||
+      STR_FIVE[currentLetter] === "o" ||
+      STR_FIVE[currentLetter] === "u"
+    ) {
+      numberOfVowelsSTR_FIVE++
+    }
+}
+
+if (numberOfVowelsSTR_FIVE % 2 === 0) {
+  answerFour = true
+} else {
+  answerFour = false
+}
 
 
 // Use a combination of a loop and conditional statements to set answerFive
@@ -41,7 +72,30 @@ const STR_SIX = 'Joanna'
 
 let answerFive
 
+let numberOfVowelsSTR_SIX = 0
 
+for (let currentLetter = 0; currentLetter < STR_SIX.length; currentLetter++) {
+  if (
+    STR_SIX[currentLetter] === "A" ||
+    STR_SIX[currentLetter] === "E" ||
+    STR_SIX[currentLetter] === "I" ||
+    STR_SIX[currentLetter] === "O" ||
+    STR_SIX[currentLetter] === "U" ||
+    STR_SIX[currentLetter] === "a" ||
+    STR_SIX[currentLetter] === "e" ||
+    STR_SIX[currentLetter] === "i" ||
+    STR_SIX[currentLetter] === "o" ||
+    STR_SIX[currentLetter] === "u"
+    ) {
+      numberOfVowelsSTR_SIX++
+    }
+}
+
+if (numberOfVowelsSTR_SIX % 2 === 0) {
+  answerFive = true
+} else {
+  answerFive = false
+}
 
 
 // Use conditional statements to set answerSix to the middle character of STR_SEVEN
@@ -50,8 +104,10 @@ const STR_SEVEN = 'Kayla'
 
 let answerSix
 
-
-
+if (STR_SEVEN.length % 2 !== 0) {
+  let middleCharacterIndexSTR_SEVEN = Math.floor((STR_SEVEN.length/2))
+  answerSix = STR_SEVEN[middleCharacterIndexSTR_SEVEN]
+}
 
 // Use conditional statements to set answerSeven to the middle two characters of
 // STR_EIGHT if STR_EIGHT has an even number of characters
@@ -59,7 +115,10 @@ const STR_EIGHT = 'Alex'
 
 let answerSeven
 
-
+if (STR_EIGHT.length % 2 === 0) {
+  let middleCharacterIndexSTR_EIGHT = STR_EIGHT.length / 2
+  answerSeven = STR_EIGHT[middleCharacterIndexSTR_EIGHT-1] + STR_EIGHT[middleCharacterIndexSTR_EIGHT]
+}
 
 
 // Set answerEight to the appropriate season based on what MONTH is set to
