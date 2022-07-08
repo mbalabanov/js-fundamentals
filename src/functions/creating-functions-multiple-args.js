@@ -10,6 +10,18 @@
 //
 // TODO: write code below
 
+function rowOfNumbers(lower, upper) {
+  if (lower < upper) {
+    let numberRow = []
+    for (let currentNumber = lower; currentNumber <= upper; currentNumber++) {
+      numberRow.push(currentNumber)
+    }
+    return numberRow
+  } else {
+    return 'First number must be smaller than the second number'
+  }
+}
+
 // define a function that takes two arguments: a string and a number.
 // The function should return the same string but in upper case with exclamation
 // marks appended to the end. The number of exclamation marks should be
@@ -22,8 +34,16 @@
 //
 // TODO: write code below
 
+function shout(shoutString, shoutNumber) {
+  let shoutified = shoutString.toUpperCase()
+  for (let numberOfExclamationMarks = 1; numberOfExclamationMarks <= shoutNumber; numberOfExclamationMarks++) {
+    shoutified = shoutified + '!'
+  }
+  return shoutified
+}
+
 // change the exported value to be the name of the function you defined
 module.exports = {
-  a: undefined, // change undefined to be the name of the function defined to create the range of numbers (the first todo)
-  b: undefined // change undefined to be the name of the function defined to return the string with exclamations (the second todo)
+  a: rowOfNumbers, // change undefined to be the name of the function defined to create the range of numbers (the first todo)
+  b: shout // change undefined to be the name of the function defined to return the string with exclamations (the second todo)
 }
