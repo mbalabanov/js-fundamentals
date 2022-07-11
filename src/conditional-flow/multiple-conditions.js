@@ -9,13 +9,13 @@ const NUM = 9
 let answerOne
 
 if (NUM >= LOWER && NUM <= UPPER) {
-    answerOne = true
+  answerOne = true
 }
 
 // ---- //
 
 // Task 2
-const STR = "Hello"
+const STR = 'Hello'
 
 // Use conditional statements to set the answerTwo variable below to true
 // if the STR variable is 'Hello' or 'Goodbye'
@@ -24,10 +24,10 @@ const STR = "Hello"
 // to verify your code is correct
 let answerTwo
 
-if (STR === "Hello" || STR === "Goodbye") {
-    answerTwo = true
+if (STR === 'Hello' || STR === 'Goodbye') {
+  answerTwo = true
 } else {
-    answerTwo = false
+  answerTwo = false
 }
 
 // ---- //
@@ -49,28 +49,26 @@ const AGE = 20
 // 20+    | Adult
 let answerThree
 
-if ( AGE === 0) {
-    answerThree = "Baby"
-} else if ( AGE >= 0 && AGE <= 4) {
-    answerThree = "Toddler"
-} else if ( AGE >= 5 && AGE <= 12) {
-    answerThree = "Child"
-} else if ( AGE >= 13 && AGE <= 19) {
-    answerThree = "Teenager"
-} else if ( AGE >= 20) {
-    answerThree = "Adult"
+if (AGE === 0) {
+  answerThree = 'Baby'
+} else if (AGE >= 0 && AGE <= 4) {
+  answerThree = 'Toddler'
+} else if (AGE >= 5 && AGE <= 12) {
+  answerThree = 'Child'
+} else if (AGE >= 13 && AGE <= 19) {
+  answerThree = 'Teenager'
+} else if (AGE >= 20) {
+  answerThree = 'Adult'
 }
 
 // Run the test after changing the AGE value to verify you've successfully
 // accounted for each age range
 
-
-
 // Don't touch the code below this line
 module.exports = {
-    answerOne,
-    STR,
-    answerTwo,
-    AGE,
-    answerThree
+  answerOne,
+  STR,
+  answerTwo,
+  AGE,
+  answerThree
 }

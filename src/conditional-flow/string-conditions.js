@@ -88,7 +88,7 @@ const STR_SEVEN = 'Kayla'
 let answerSix
 
 if (STR_SEVEN.length % 2 !== 0) {
-  let middleCharacterIndexSTR_SEVEN = Math.floor(STR_SEVEN.length / 2)
+  const middleCharacterIndexSTR_SEVEN = Math.floor(STR_SEVEN.length / 2)
   answerSix = STR_SEVEN[middleCharacterIndexSTR_SEVEN]
 }
 
@@ -99,7 +99,7 @@ const STR_EIGHT = 'Alex'
 let answerSeven
 
 if (STR_EIGHT.length % 2 === 0) {
-  let middleCharacterIndexSTR_EIGHT = STR_EIGHT.length / 2
+  const middleCharacterIndexSTR_EIGHT = STR_EIGHT.length / 2
   answerSeven =
     STR_EIGHT[middleCharacterIndexSTR_EIGHT - 1] +
     STR_EIGHT[middleCharacterIndexSTR_EIGHT]
@@ -119,7 +119,7 @@ if (STR_EIGHT.length % 2 === 0) {
 // Run the test after changing the value of MONTH to check you've covered every month correctly
 const MONTH = 'January'
 
-let seasonsByMonth = {
+const seasonsByMonth = {
   March: 'Spring',
   April: 'Spring',
   May: 'Spring',
@@ -134,7 +134,7 @@ let seasonsByMonth = {
   February: 'Winter'
 }
 
-let answerEight = seasonsByMonth[MONTH]
+const answerEight = seasonsByMonth[MONTH]
 
 module.exports = {
   answerOne,

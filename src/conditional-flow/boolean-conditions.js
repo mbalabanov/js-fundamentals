@@ -7,11 +7,10 @@ let didPass = true
 let answer
 
 if (didPass) {
-  answer = "Well done, you passed!"
+  answer = 'Well done, you passed!'
 } else {
-  answer = "Sorry, try again!"
+  answer = 'Sorry, try again!'
 }
-
 
 // When you're done and the test passes, changing didPass to the opposite boolean
 // and run the test again to make sure it still passes

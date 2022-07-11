@@ -8,7 +8,7 @@
 //
 // TODO: write code below
 function numberIncrementor3000(input) {
-  return input += 1
+  return (input += 1)
 }
 
 // Define a function that takes any person's name and returns it with a smiley :)!
@@ -23,8 +23,7 @@ function numberIncrementor3000(input) {
 // TODO: write code below
 
 function smileyAppender3000(personName) {
-
-  let capitalizedName = personName.charAt(0).toUpperCase() + personName.slice(1);
+  const capitalizedName = personName.charAt(0).toUpperCase() + personName.slice(1)
   return 'Hi, ' + capitalizedName + ' :)'
 }
 

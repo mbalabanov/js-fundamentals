@@ -36,7 +36,11 @@ function rowOfNumbers(lower, upper) {
 
 function shout(shoutString, shoutNumber) {
   let shoutified = shoutString.toUpperCase()
-  for (let numberOfExclamationMarks = 1; numberOfExclamationMarks <= shoutNumber; numberOfExclamationMarks++) {
+  for (
+    let numberOfExclamationMarks = 1;
+    numberOfExclamationMarks <= shoutNumber;
+    numberOfExclamationMarks++
+  ) {
     shoutified = shoutified + '!'
   }
   return shoutified
