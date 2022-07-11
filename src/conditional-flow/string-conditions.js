@@ -36,19 +36,19 @@ let answerFour
 
 let numberOfVowelsSTR_FIVE = 0
 
+const vowels = {
+  a: 'Vowel',
+  e: 'Vowel',
+  i: 'Vowel',
+  o: 'Vowel',
+  u: 'Vowel'
+}
+
+let lowerCaseCurrentLetter
+
 for (let currentLetter = 0; currentLetter < STR_FIVE.length; currentLetter++) {
-  if (
-    STR_FIVE[currentLetter] === 'A' ||
-    STR_FIVE[currentLetter] === 'E' ||
-    STR_FIVE[currentLetter] === 'I' ||
-    STR_FIVE[currentLetter] === 'O' ||
-    STR_FIVE[currentLetter] === 'U' ||
-    STR_FIVE[currentLetter] === 'a' ||
-    STR_FIVE[currentLetter] === 'e' ||
-    STR_FIVE[currentLetter] === 'i' ||
-    STR_FIVE[currentLetter] === 'o' ||
-    STR_FIVE[currentLetter] === 'u'
-  ) {
+  lowerCaseCurrentLetter = STR_FIVE[currentLetter].toLowerCase()
+  if (vowels[lowerCaseCurrentLetter] === 'Vowel') {
     numberOfVowelsSTR_FIVE++
   }
 }
@@ -69,18 +69,8 @@ let answerFive
 let numberOfVowelsSTR_SIX = 0
 
 for (let currentLetter = 0; currentLetter < STR_SIX.length; currentLetter++) {
-  if (
-    STR_SIX[currentLetter] === 'A' ||
-    STR_SIX[currentLetter] === 'E' ||
-    STR_SIX[currentLetter] === 'I' ||
-    STR_SIX[currentLetter] === 'O' ||
-    STR_SIX[currentLetter] === 'U' ||
-    STR_SIX[currentLetter] === 'a' ||
-    STR_SIX[currentLetter] === 'e' ||
-    STR_SIX[currentLetter] === 'i' ||
-    STR_SIX[currentLetter] === 'o' ||
-    STR_SIX[currentLetter] === 'u'
-  ) {
+  lowerCaseCurrentLetter = STR_SIX[currentLetter].toLowerCase()
+  if (vowels[lowerCaseCurrentLetter] === 'Vowel') {
     numberOfVowelsSTR_SIX++
   }
 }
