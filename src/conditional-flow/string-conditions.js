@@ -130,7 +130,8 @@ let seasonsByMonth = {
   October: 'Autumn',
   November: 'Autumn',
   December: 'Winter',
-  January: 'Winter'
+  January: 'Winter',
+  February: 'Winter'
 }
 
 let answerEight = seasonsByMonth[MONTH]
