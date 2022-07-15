@@ -34,7 +34,7 @@ const STR_FIVE = 'Alex'
 
 let answerFour
 
-let numberOfVowelsSTR_FIVE = 0
+let numberOfVowelsStrFive = 0
 
 const vowels = {
   a: 'Vowel',
@@ -49,11 +49,11 @@ let lowerCaseCurrentLetter
 for (let currentLetter = 0; currentLetter < STR_FIVE.length; currentLetter++) {
   lowerCaseCurrentLetter = STR_FIVE[currentLetter].toLowerCase()
   if (vowels[lowerCaseCurrentLetter] === 'Vowel') {
-    numberOfVowelsSTR_FIVE++
+    numberOfVowelsStrFive++
   }
 }
 
-if (numberOfVowelsSTR_FIVE % 2 === 0) {
+if (numberOfVowelsStrFive % 2 === 0) {
   answerFour = true
 } else {
   answerFour = false
@@ -66,16 +66,16 @@ const STR_SIX = 'Joanna'
 
 let answerFive
 
-let numberOfVowelsSTR_SIX = 0
+let numberOfVowelsStrSix = 0
 
 for (let currentLetter = 0; currentLetter < STR_SIX.length; currentLetter++) {
   lowerCaseCurrentLetter = STR_SIX[currentLetter].toLowerCase()
   if (vowels[lowerCaseCurrentLetter] === 'Vowel') {
-    numberOfVowelsSTR_SIX++
+    numberOfVowelsStrSix++
   }
 }
 
-if (numberOfVowelsSTR_SIX % 2 === 0) {
+if (numberOfVowelsStrSix % 2 === 0) {
   answerFive = true
 } else {
   answerFive = false
@@ -88,8 +88,8 @@ const STR_SEVEN = 'Kayla'
 let answerSix
 
 if (STR_SEVEN.length % 2 !== 0) {
-  const middleCharacterIndexSTR_SEVEN = Math.floor(STR_SEVEN.length / 2)
-  answerSix = STR_SEVEN[middleCharacterIndexSTR_SEVEN]
+  const middleCharacterIndexStrSeven = Math.floor(STR_SEVEN.length / 2)
+  answerSix = STR_SEVEN[middleCharacterIndexStrSeven]
 }
 
 // Use conditional statements to set answerSeven to the middle two characters of
@@ -99,10 +99,10 @@ const STR_EIGHT = 'Alex'
 let answerSeven
 
 if (STR_EIGHT.length % 2 === 0) {
-  const middleCharacterIndexSTR_EIGHT = STR_EIGHT.length / 2
+  const middleCharacterIndexStrEight = STR_EIGHT.length / 2
   answerSeven =
-    STR_EIGHT[middleCharacterIndexSTR_EIGHT - 1] +
-    STR_EIGHT[middleCharacterIndexSTR_EIGHT]
+    STR_EIGHT[middleCharacterIndexStrEight - 1] +
+    STR_EIGHT[middleCharacterIndexStrEight]
 }
 
 // Set answerEight to the appropriate season based on what MONTH is set to

@@ -23,6 +23,7 @@ function numberIncrementor3000(input) {
 // TODO: write code below
 
 function smileyAppender3000(personName) {
+  // eslint-disable-next-line prettier/prettier
   const capitalizedName = personName.charAt(0).toUpperCase() + personName.slice(1)
   return 'Hi, ' + capitalizedName + ' :)'
 }

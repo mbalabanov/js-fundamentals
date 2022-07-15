@@ -17,11 +17,11 @@ for (let currentNumber = 5; currentNumber <= 10; currentNumber++) {
 
 // TODO: Write a for loop that adds all the even numbers between 0 and 6 (0, 2, 4, 6) to evenNums
 
-for (let currentNumber = 0; currentNumber <= 6; currentNumber++) {
-  if (currentNumber % 2 === 0) {
-    evenNums.push(currentNumber)
-  }
-}
+// for (let currentNumber = 0; currentNumber <= 6; currentNumber++) {
+//   if (currentNumber % 2 === 0) {
+//     evenNums.push(currentNumber)
+//   }
+// }
 
 // TODO: Write a for loop that adds the numbers 3 to 0 (in that order) to the countdown array
 
